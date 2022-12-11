@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+
+
+<!--[if lt IE 7 ]> <html lang="en" id="top" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" id="top" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" id="top" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" id="top" class="no-js"> <!--<![endif]-->
+
+
+<body class="body-microsite  cms-page-view local-gb store-visiondirectcouk cms-the-human-eye">
+
+    
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6T9FM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+                    dataLayer.push({"ga_account":"UA-200287-1","page_name":"\/virtual\/information\/the-human-eye"});
+        
+        // Additional data for frontend GTM event pushes
+            </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K6T9FM');</script>
+
+    <!-- End Google Tag Manager -->
+    <div id="pageMicrosite" class="page-microsite">
+
+        <div class="std"><!-- esi-blocked: cms --><head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta itemprop="image" content="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/the-human-eye.jpg">
+    <meta name="theme-color" content="#FFF"/>
+
+    <style>
+        .usabilla_live_button_container { display: none; top: 100px !important; margin-top: 0 !important; }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            overflow-y: scroll;
+            background-color: #fafafb;
+            color: #000f42;
+            position: relative;
+            min-height: 100vh;
+            padding-bottom: 150px;
+        }
+        h1, h2, h3 { text-transform: uppercase; font-weight: bold; display: block; }
+        h1 { font-size: 32px; text-align: left; }
+        h2 { font-size: 22px; text-align: left; margin-top: 30px; }
+        h3 { font-size: 16px; text-align: left; }
+        a { color: #0137ef; }
+
+        #texts h2, #texts h3 { margin-top: 0; font-size: initial; }
+
+        .navbar-custom { background-color: #fff; padding: 22px; box-shadow: 0px 0px 10px #eee; }
+        .navbar-custom .navbar-toggler { padding: 2px; }
+
+        .navbar-custom .logo { float: left; height: 26px; width: auto; }
+        .navbar-custom .nav-item .nav-link, .navbar-custom .nav-item a { color: #000f42; text-transform: uppercase; font-weight: bold; }
+        .navbar-custom svg.bi.bi-house-door-fill { height: 24px; width: 20px; }
+
+        .navbar-custom .nav-item { margin-left: 20px; }
+        .navbar-custom .nav-item .nav-link { padding-left: 0; padding-right: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+        .navbar-custom .nav-item .nav-link.active, .navbar-custom .nav-item .nav-link:hover { color: #0137ef; border-bottom: 3px solid #0137ef; }
+        .navbar-custom .nav-item .dropdown-item:hover { color: #0137ef; }
+
+
+@media (max-width: 1199px) {
+    .navbar-custom .container { max-width: 100%; }
+}
+
+@media (max-width: 991px) {
+    .navbar-custom .nav-item .nav-link.active, .navbar-custom .nav-item .nav-link:hover { border-bottom: 3px solid transparent; }
+
+    .navbar-custom { padding: 10px; }
+    
+    .navbar-collapse {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 10;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -100%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+
+        .mainContainer { position: relative; }
+
+        #restart, #prevSlide, #nextSlide {
+            display: block;
+            position: absolute;
+            top: calc(50% - 25px);
+            height: 50px;
+            max-width: 160px;
+            cursor: pointer;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+            z-index: 5;
+            background: none;
+            border: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            text-align: center;
+        }
+        #restart { top: 10px; left: 0; opacity: 0; cursor: auto; }
+        #restart:hover { margin-left: 5px; }
+
+        #prevSlide { left: 0; opacity: 0; cursor: auto; }
+        #prevSlide:hover { margin-left: 5px; }
+
+        #nextSlide { right: 0; }
+        #nextSlide:hover { margin-right: 5px; }
+
+        #restart svg { height: 30px; width: 30px; margin-left: 8px; }
+        #prevSlide svg, #nextSlide svg { height: 50px; width: 50px; }
+
+        #prevSlide span, #nextSlide span { display: inline; }
+        #prevSlide svg { float: left; display: inline; }
+        #nextSlide svg { float: right; display: inline; }
+
+        .slide1 #prevSlide, .slide1 #restart, .slide2 #prevSlide, .slide2 #restart, .slide3 #restart, .slide3 #prevSlide { opacity: 1; cursor: pointer; }
+        .slide3 #nextSlide { opacity: 0; cursor: auto; }
+
+        #eyeContainer {
+            position: relative;
+            padding-bottom: 100%;
+
+            user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+        }
+
+        #thumbnail { position: absolute; opacity: 0; pointer-events: none; max-width: 100%; }
+
+        #lightRay {
+            position: absolute;
+            top: 45.5%;
+            right: 21%;
+            width: 110%;
+            height: 8.4%;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .slide1 #lightRay, .slide2 #lightRay, .slide3 #lightRay { opacity: 0.6; }
+
+        #signals {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .slide3 #signals { opacity: 1; }
+
+        #projection {
+            position: absolute;
+            top: 16%;
+            right: 15%;
+            height: 64%;
+            width: 45%;
+            opacity: 0;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+
+            pointer-events: none;
+            overflow: visible !important;
+        }
+        #projection image { overflow: visible !important; }
+        .slide2 #projection, .slide3 #projection { opacity: 1; }
+        .slide2 .inspectingMasks #projection, .slide3 .inspectingMasks #projection,  .slide2 .inspecting #projection, .slide3 .inspecting #projection { opacity: 0.3; }
+
+        #eye { position: absolute; width: 100%; }
+        #EyeMain { position: absolute; width: 100%; height: auto; }
+        #EyeMain g {
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+
+        #eye #masks { visibility: visible; display: inline !important; }
+        #eye #masks g { visibility: visible; display: inline !important; opacity: 0; }
+
+        .inspecting #EyeMain #eye > g { opacity: 0.1; }
+        .inspecting g.activePart { opacity: 1 !important; }
+
+        .inspectingMasks #EyeMain #eye > g { opacity: 1; }
+        .inspectingMasks g.activePart { opacity: 0.85 !important; }
+
+
+        .plusBtnDummy {
+            display: inline-block;
+            vertical-align: middle;
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            box-shadow: 0 0 2px #333;
+
+            background-image: url(https://static.visiondirect.info/media/wysiwyg/cms/human-eye/plus-blue.png);
+            image-rendering: pixelated;
+            background-position: center center;
+            background-color: #fff;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
+
+        .plusBtn {
+            color: #fff;
+            position: absolute;
+            display: block;
+            border-radius: 20px;
+            line-height: 20px;
+            height: 24px;
+            padding: 2px;
+            cursor: pointer;
+            opacity: 1;
+            z-index: 1;
+        }
+        .plusBtn:hover, .plusBtnActive {
+            background-color: #000f42;
+            height: 24px;
+            z-index: 100;
+        }
+        .plusBtn span {
+            font-size: 0;
+            line-height: 20px;
+            font-weight: bold;
+            margin: 0;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            transition: all 0.2s;
+
+            display: inline-block;
+            vertical-align: top;
+            height: 20px;
+        }
+        .plusBtn:hover span, .plusBtnActive span {
+            margin: 0 8px;
+            font-size: 14px;
+        }
+        .plusBtn .plus, .plusBtn .minus {
+            background-position: center center;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            font-size: 22px !important;
+            line-height: 14px;
+            display: inline-block;
+            margin: 0 !important;
+            background-color: #fff;
+            color: #fff;
+            border-radius: 100%;
+            font-weight: bold;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            box-shadow: 0 0 2px #333;
+        }
+        .plusBtn .plus { background-image: url(https://static.visiondirect.info/media/wysiwyg/cms/human-eye/plus-blue.png); image-rendering: pixelated; }
+        .plusBtn .minus { background-image: url(https://static.visiondirect.info/media/wysiwyg/cms/human-eye/minus-blue.png); display: none; image-rendering: pixelated; }
+        .plusBtnActive .plus { display: none; }
+        .plusBtnActive .minus { display: inline-block; }
+
+        :root {
+            --ray: 12px;
+        }
+        /* .plusBtn.pupil { top: calc(48.92307692% - 12px); left: calc(10.30769231% - 12px); } */
+        .plusBtn.pupil { top: calc(39% - 12px); left: calc(13% - 12px); }
+        /* .plusBtn.iris { top: calc(61.53846154% - 12px); left: calc(15.53846154% - 12px); } */
+        .plusBtn.iris { top: calc(64% - 12px); left: calc(16% - 12px); }
+        .plusBtn.cornea { top: calc(33.84615385% - 12px); left: calc(10% - 12px); }
+        .plusBtn.sclera { top: calc(14.15384615% - 12px); left: calc(30.76923077% - 12px); }
+        .plusBtn.conjunctiva { top: calc(11.23076923% - 12px); left: calc(20% - 12px); }
+        .plusBtn.lens { top: calc(42% - 12px); left: calc(21.53846154% - 12px); }
+        .plusBtn.aqueous { top: calc(58% - 12px); left: calc(10.61538462% - 12px); }
+
+        .plusBtn.retina { top: calc(74.15384615% - 12px); right: calc(30.15384615% - 12px); }
+        /* .plusBtn.macula { top: calc(37.37846154% - 12px); right: calc(20.45876923% - 12px); } */
+        .plusBtn.macula { top: calc(32% - 12px); right: calc(23% - 12px); }
+        .plusBtn.fovea { top: calc(48.16153846% - 12px); right: calc(17.99184615% - 12px); }
+        .plusBtn.opticdisc { top: calc(55.69230769% - 12px); right: calc(29.38461538% - 12px); }
+        .plusBtn.opticnerve { top: calc(67.38046154% - 12px); right: calc(12.76784615% - 12px); }
+        /* .plusBtn.vitreous { top: calc(47.69230769% - 12px); right: calc(49.07692308% - 12px); } */
+        .plusBtn.vitreous { top: calc(47.69230769% - 12px); right: calc(42% - 12px); }
+
+.pulsing .plusBtnDummy { 
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+@-o-keyframes-keyframes pulse {
+  0%     { -o-box-shadow: 0 0 0 1px rgba(1,55,239,0.5); }
+  70%   { -o-box-shadow: 0 0 0 4px rgba(1,55,239,1); }
+  100% { -o-box-shadow: 0 0 0 1px rgba(1,55,239,0.5); }
+}
+@keyframes pulse {
+  0%     { box-shadow: 0 0 0 1px rgba(1,55,239,0.5); }
+  70%   { box-shadow: 0 0 0 4px rgba(1,55,239,1); }
+  100% { box-shadow: 0 0 0 1px rgba(1,55,239,0.5); }
+}
+
+        .slide1 .plusBtn { visibility: hidden; opacity: 0; }
+        .slide1 .plusBtn.conjunctiva, .slide1 .plusBtn.cornea, .slide1 .plusBtn.pupil, .slide1 .plusBtn.iris { visibility: visible; opacity: 1; }
+
+        .slide2 .plusBtn { visibility: hidden; opacity: 0; }
+        .slide2 .plusBtn.cornea, .slide2 .plusBtn.lens, .slide2 .plusBtn.vitreous, .slide2 .plusBtn.retina { visibility: visible; opacity: 1; }
+
+        .slide3 .plusBtn { visibility: hidden; opacity: 0; }
+        .slide3 .plusBtn.macula, .slide3 .plusBtn.fovea, .slide3 .plusBtn.opticdisc, .slide3 .plusBtn.opticnerve, .slide3 .plusBtn.retina { visibility: visible; opacity: 1; }
+
+
+
+        #texts #slideText > div, #texts #eyePartText > div { display: none; }
+        #texts #slideText div { width: 100%; }
+        #texts #slideText .activeText { display: inline-flex !important; }
+        #texts #slideText .activeText .col-12 { padding-left: 0; padding-right: 0; }
+        #texts #eyePartText > div { background:#eaf6fe; padding: 17px 17px 1px; }
+        #texts #eyePartText .activeText { display: block !important; }
+
+        #texts .container, #texts .row { margin-left: 0 !important; margin-right: 0 !important; padding-left: 0 !important; padding-right: 0 !important; }
+
+        #sliders { margin-top: -50px; }
+
+        .sliderContainer {
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .sliderContainer svg {
+            height: 30px;
+            width: 20px;
+        }
+        #focusSlider svg {
+            height: 30px;
+            width: 24px;
+        }
+        .sliderContainer input[type=range] {
+            width: 78%;
+            min-height: 30px;
+            vertical-align: bottom;
+            padding: 0;
+        }
+        .sliderContainer input[type=range]::-ms-tooltip {
+            display: none;
+        }
+        .sliderContainer span {
+            display: block;
+            text-transform: uppercase;
+        }
+        #gapSlider, #brightnessSlider, #focusSlider { display: none; }
+        .slide0 #gapSlider, .slide1 #brightnessSlider, .slide2 #focusSlider, .slide3 #gapSlider { display: block; }
+
+        #iris-bottom { transform-origin: 0% 61%; }
+        #iris-top { transform-origin: 0% 39%; }
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    /*
+      Define here the CSS styles applied only to Safari browsers
+      (any version and any device)
+     */
+        #iris-bottom { transform-origin: bottom left; }
+        #iris-top { transform-origin: top left; }
+}}
+
+        #lens { transform-origin: 20% 50%; }
+        #zonula { transform-origin: 19% 50%; }
+
+
+        .relatedLinks { background-color: #eaf6fe; margin-top: 30px; padding: 20px 20px 4px; }
+
+        .footer-custom {
+            background-color: #4b515b;
+            color: #fff;
+            text-align: center;
+            font-size: small;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer .social-media li, footer .logo {
+            display: inline-block;
+            padding: 0 0.5em;
+            opacity: 0.8;
+        }
+
+        footer .logo {
+            width: 175px;
+            height: auto;
+            margin: 0;
+        }
+
+        footer a, footer a:hover {
+            color: #fff;
+        }
+
+        footer ul.social-media {
+            padding-left: 0;
+        }
+        footer .social-media li img {
+            width: 18px;
+            height: 18px;
+        }
+
+        .tAndC li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+
+        .blur1 { -webkit-filter: blur(1px); -moz-filter: blur(1px); -ms-filter: blur(1px); -o-filter: blur(1px); filter: blur(1px); filter: url(#blur1); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); }
+        .blur2 { -webkit-filter: blur(2px); -moz-filter: blur(2px); -ms-filter: blur(2px); -o-filter: blur(2px); filter: blur(2px); filter: url(#blur2); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2'); }
+        .blur3 { -webkit-filter: blur(3px); -moz-filter: blur(3px); -ms-filter: blur(3px); -o-filter: blur(3px); filter: blur(3px); filter: url(#blur3); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); }
+        .blur4 { -webkit-filter: blur(4px); -moz-filter: blur(4px); -ms-filter: blur(4px); -o-filter: blur(4px); filter: blur(4px); filter: url(#blur4); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4'); }
+        .blur5 { -webkit-filter: blur(5px); -moz-filter: blur(5px); -ms-filter: blur(5px); -o-filter: blur(5px); filter: blur(5px); filter: url(#blur5); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5'); }
+        .blur6 { -webkit-filter: blur(6px); -moz-filter: blur(6px); -ms-filter: blur(6px); -o-filter: blur(6px); filter: blur(6px); filter: url(#blur6); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6'); }
+        .blur7 { -webkit-filter: blur(7px); -moz-filter: blur(7px); -ms-filter: blur(7px); -o-filter: blur(7px); filter: blur(7px); filter: url(#blur7); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='7'); }
+        .blur8 { -webkit-filter: blur(8px); -moz-filter: blur(8px); -ms-filter: blur(8px); -o-filter: blur(8px); filter: blur(8px); filter: url(#blur8); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='8'); }
+        .blur9 { -webkit-filter: blur(9px); -moz-filter: blur(9px); -ms-filter: blur(9px); -o-filter: blur(9px); filter: blur(9px); filter: url(#blur9); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='9'); }
+        .blur10 { -webkit-filter: blur(10px); -moz-filter: blur(10px); -ms-filter: blur(10px); -o-filter: blur(10px); filter: blur(10px); filter: url(#blur10); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10'); }
+
+
+        @media screen and (max-width: 1399px) {
+            #prevSlide span, #nextSlide span { display: none; }
+        }
+
+        @media screen and (max-width: 767px) {
+            body { padding-bottom: unset; }
+            #manNavbar { margin: 0 auto; }
+            #prevSlide, #nextSlide { top: calc(100vw - 90px); }
+
+            #eyeContainer { /* margin-bottom: 1rem; */ }
+
+            #texts div { min-height: unset !important; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+            #sliders { margin-top: 0; }
+            #texts, #texts .sliderContainer, #texts #eyePartText, #texts #slideText { margin-bottom: 1rem; }
+            .slide0 .sliderContainer, .slide3 .sliderContainer { height: 0; }
+
+            .footer-custom { font-size: unset; position: relative; }
+            .tAndC li { display: block; text-align: left; }
+        }
+    </style>
+</head>
+
+
+<div class="mainContainer pb-5 py-sm-3">
+<a id="restart" title="Start again"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.83 6.706a5 5 0 0 0-7.103-3.16.5.5 0 1 1-.454-.892A6 6 0 1 1 2.545 5.5a.5.5 0 1 1 .91.417 5 5 0 1 0 9.375.789z"/><path fill-rule="evenodd" d="M7.854.146a.5.5 0 0 0-.708 0l-2.5 2.5a.5.5 0 0 0 0 .708l2.5 2.5a.5.5 0 1 0 .708-.708L5.707 3 7.854.854a.5.5 0 0 0 0-.708z"/></svg></a>
+<a id="prevSlide" title="Back"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg><span></span></a>
+<a id="nextSlide" title="Next"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg><span></span></a>
+
+<div class="container pt-3">
+    <div class="row">
+        <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1 py-0 py-md-5 align-self-center">
+
+            <div id="texts" class="row">
+                <div id="slideText" class="align-self-bottom col-12 order-3 order-md-1">
+                    <div id="slide0" class="slideoverview activeText">
+                        <div class="col-12">
+                            <h1>Human Eye</h1>
+                            <p>The eye is an organ a part of the nervous system made of over 2 million parts that work together to process light and help us interpret shapes, colours and dimensions around us. This guide will take you through the fascinating visual process - which, like a camera, begins when light is captured at the front of the eye, travels through the middle and ends at the back of the eye.</p>
+                            <p>The eye is the primary organ of the visual system; it receives pictures from the person and converts them into an electric signal that travels via the optic nerve to the brain. The visual system is the component of the central nervous system responsible for visual perception, which includes receiving, processing, and interpreting visual information in order to construct a representation of the visual world. The eyes are in charge of sensing light that enters them. The light is then turned into a picture in the brain. Six paired cranial nerves supply sensory and motor innervation to the eyes. These nerves communicate with one another to produce motions, reflexes, and vision.</p>
+                        </div>
+                    </div>
+
+                    <div id="slide1" class="slideiris">
+                        <div>
+                            <h2>How light enters the eye</h2>
+                            <p>Everything around us is made of surfaces that reflect light in varying wavelengths. These light rays enter through the cornea at the front of the eye and pass freely through the pupil.</p>
+                            <P>Because human eyes are not very good at blocking blue light, virtually all visible blue light travels through the front of the eye (cornea and crystalline lens) and reaches the retina, which contains the cells that turn light into pictures for the brain to analyse.</P>
+                            <p>Move the brightness slider to explore how the eye filters light.</p>
+                        </div>
+                    </div>
+
+                    <div id="slide2" class="slidelens">
+                        <div>
+                            <h2>Lens adjusts focus</h2>
+                            <p>Next, the light makes its way through the crystalline lens, which bends the rays and flips them back onto the retina, resulting in a reverted image.</p>
+                            <p>The lens, also known as the crystalline lens, is a translucent biconvex structure in the eye that, along with the cornea, serves to focus light on the retina. The eye's crystalline lens is a natural lens that produces one-third of the eye's total optical power and focuses light onto the retina (the light-sensitive tissue at the back of the eye). Because the crystalline lens is elastic, it may bend and change shape. The centre of the convex lens is thicker, while the margins are thinner. A convex lens is present in the human eye. The lens of the eye refracts and focuses light on the retina. Unlike ordinary lenses, the biconvex lens in the eye may change shape. The lens changes shape to vary the focal length of the eye, letting it to concentrate clearly on objects at varied distances. A lens's ability to focus is referred to as accommodation. Hence, the human eye has a convex lens.</p>
+                        </div>
+                    </div>
+
+                    <div id="slide3" class="slideretina">
+                        <div>
+                            <h2>Brain interprets the image</h2>
+                            <p>Finally, the light rays go through a sharp focusing point of the retina, where they are transformed into electrical signals that reach our brain via the optic nerve.</p><p>Because our brains' are so used to seening the world upside-down, our brain actually takes the two images from both of our eyes and creates a new image based on what we see. Pretty cool isn't it?</p>
+                            <p>The half-fallacy "we see everything upside-down" is mostly correct. What actually happens is your brain processes a pattern of nerve impulses to create a useful image based on what you are looking at. Processing visual information takes a lot of our brains' processing power.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sliders" class="sliderContainer col-12 order-1 order-md-2">
+                    <div id="gapSlider"></div>
+                    <div id="brightnessSlider">
+                        <!--CLOUD--><svg class="float-left" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/></svg>
+                        <input type="range" min="50" max="150" autocomplete="off">
+                        <!--SUN--><svg class="float-right" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-sun" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/><path fill-rule="evenodd" d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/></svg>
+                        <span>Brightness</span>
+                    </div>
+                    <div id="focusSlider">
+                        <!--MOUNT--><svg class="float-left" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>
+                        <input type="range" min="90" max="110">
+                        <!--FLOWER--><svg class="float-right" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-flower3" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268zM9 4a1 1 0 0 0-2 0 1.473 1.473 0 0 0 .045.206c.039.131.1.294.183.483.166.378.396.808.637 1.223l.135.23.135-.23c.241-.415.47-.845.637-1.223.083-.19.144-.352.183-.484.02-.065.031-.116.038-.154C9 4.018 9 4.002 9 4zM3.67 5.5a1 1 0 0 0 .366 1.366 1.47 1.47 0 0 0 .2.064c.134.032.305.06.51.083.411.045.898.061 1.379.06.09 0 .178 0 .266-.002a21.82 21.82 0 0 0-.131-.232 12.88 12.88 0 0 0-.742-1.163 4.215 4.215 0 0 0-.327-.4 1.472 1.472 0 0 0-.115-.11c-.025-.022-.038-.03-.04-.032A1 1 0 0 0 3.67 5.5zm1.366 5.366a1 1 0 0 1-1-1.732c.001 0 .016-.008.047-.02.037-.013.087-.028.153-.044.134-.032.305-.06.51-.083a12.88 12.88 0 0 1 1.379-.06c.09 0 .178 0 .266.002a21.82 21.82 0 0 1-.131.232c-.24.416-.497.83-.742 1.163a4.1 4.1 0 0 1-.327.4 1.483 1.483 0 0 1-.155.142zM9 12a1 1 0 0 1-2 0 1.476 1.476 0 0 1 .045-.206c.039-.131.1-.294.183-.483.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223.083.19.144.352.183.484A1.338 1.338 0 0 1 9 12zm3.33-6.5a1 1 0 0 1-.366 1.366 1.478 1.478 0 0 1-.2.064c-.134.032-.305.06-.51.083-.412.045-.898.061-1.379.06-.09 0-.178 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4.1 4.1 0 0 1 .327-.4c.046-.05.085-.086.114-.11.026-.022.04-.03.041-.032a1 1 0 0 1 1.366.366zm-1.366 5.366a1 1 0 0 0 1-1.732c-.002 0-.016-.008-.047-.02a1.478 1.478 0 0 0-.153-.044 4.217 4.217 0 0 0-.51-.083 12.881 12.881 0 0 0-1.379-.06c-.09 0-.178 0-.266.002a22 22 0 0 0 .131.232c.24.416.497.83.742 1.163.122.167.232.3.327.4a1.494 1.494 0 0 0 .155.142zM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                        <span>Focus</span>
+                    </div>
+                </div>
+
+                <div id="eyePartText" class="col-12 order-2 order-md-3">
+                    <div class="anatomy activeText">
+                        <h3>Anatomy of the eye</h3>
+                        <p>Click on the <span class="plusBtnDummy"></span> buttons to learn about the functionality of the optic nerve, pupil, conjunctiva and other parts of the eye. <!--Explore how they each react to light and focus by moving the sliders.--></p>
+                    </div>
+                    <div class="cornea">
+                        <h3>Cornea</h3>
+                        <p>The clear, dome-shaped front part of the eye that helps your eye focus light, so you can see clearly.</p>
+                    </div>
+                    <div class="pupil">
+                        <h3>Pupil</h3>
+                        <p>The opening in the centre of the iris that controls the amount of light passing through to the back of the eye.</p>
+                    </div>
+                    <div class="lens">
+                        <h3>Crystalline Lens</h3>
+                        <p>The transparent, elastic structure inside the eye that bends to focus light rays onto the retina.</p>
+                    </div>
+                    <div class="aqueous">
+                        <h3>Aqueous Humour</h3>
+                        <p>The clear, watery fluid in the front of the eyeball made up of water, sugars and various nutrients. It nourishes the cornea and the lens and gives the eye its shape.</p>
+                    </div>
+                    <div class="iris">
+                        <h3>Iris</h3>
+                        <p>The coloured part of the eye surrounding the pupil that controls the amount of light that enters into the eye.</p>
+                    </div>
+                    <div class="conjunctiva">
+                        <h3>Conjunctiva</h3>
+                        <p>A clear, thin transparent layer of tissue that covers part of the front surface of the eye and the inner surface of the eyelids.</p>
+                    </div>
+                    <div class="sclera">
+                        <h3>Sclera</h3>
+                        <p>The dense protective tissue of the eyeball that forms the ‘white’ of your eye. Sclera forms over 80% of the surface area of the eyeball, from the cornea to the optic nerve.</p>
+                    </div>
+                    <div class="vitreous">
+                        <h3>Vitreous Humour</h3>
+                        <p>A clear gel-like substance that occupies the space between the crystalline lens and the retina and transmits initial light waves.</p>
+                    </div>
+                    <div class="opticdisc">
+                        <h3>Optic Disc (Blind Spot)</h3>
+                        <p>A disc on the retina that is the point of entry of the optic nerve. It lacks visual receptors, so it’s also known as the blind spot.</p>
+                    </div>
+                    <div class="macula">
+                        <h3>Macula</h3>
+                        <p>The central part of the retina that allows us to see fine details.</p>
+                    </div>
+                    <div class="fovea">
+                        <h3>Fovea</h3><p>The central part of the macula, necessary for activities where visual detail is important, such as driving or reading.</p>
+                    </div>
+                    <div class="retina">
+                        <h3>Retina</h3>
+                        <p>The light-sensitive nerve layer that lines the inside of the back of the eye made up of about 130 million cells. It creates electrical signals that travel through the optic nerve to the brain.</p>
+                    </div>
+                    <div class="opticnerve">
+                        <h3>Optic nerve</h3>
+                        <p>A bundle of nerve fibres that connect the retina with the brain and help us interpret what we see.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-7 col-lg-8 order-1 order-md-2 align-self-center">
+            <div id="eyeContainer">
+                <img id="thumbnail" src="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/the-human-eye.jpg" alt="Anatomy of the human eye">
+                <div id="eye" class="m-0">Loading...</div>
+
+                <img id="signals" src="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/nerve-signals.gif" alt="Nerve signals">
+                <img id="lightRay" src="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/light-rays.png" alt="Light rays">
+
+                <!--<image style="" id="mountains" src="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/mountains.png" alt="Mountains"></image>
+                <image style="" id="sunflower" src="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/sunflower.png" alt="A sunflower"></image>-->
+
+                <svg id="projection" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="275">
+                    <filter id="blur1" x="0" y="0"><feGaussianBlur stdDeviation="1"></feGaussianBlur></filter>
+                    <filter id="blur2" x="0" y="0"><feGaussianBlur stdDeviation="2"></feGaussianBlur></filter>
+                    <filter id="blur3" x="0" y="0"><feGaussianBlur stdDeviation="3"></feGaussianBlur></filter>
+                    <filter id="blur4" x="0" y="0"><feGaussianBlur stdDeviation="4"></feGaussianBlur></filter>
+                    <filter id="blur5" x="0" y="0"><feGaussianBlur stdDeviation="5"></feGaussianBlur></filter>
+                    <filter id="blur6" x="0" y="0"><feGaussianBlur stdDeviation="6"></feGaussianBlur></filter>
+                    <filter id="blur7" x="0" y="0"><feGaussianBlur stdDeviation="7"></feGaussianBlur></filter>
+                    <filter id="blur8" x="0" y="0"><feGaussianBlur stdDeviation="8"></feGaussianBlur></filter>
+                    <filter id="blur9" x="0" y="0"><feGaussianBlur stdDeviation="9"></feGaussianBlur></filter>
+                    <filter id="blur10" x="0" y="0"><feGaussianBlur stdDeviation="10"></feGaussianBlur></filter>
+
+                    <image preserveAspectRatio="none" x="10%" y="10%" xlink:href="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/mountains.png" id="mountains" alt="Mountains" width="80%" height="80%"/></image>
+                    <image preserveAspectRatio="none" x="10%" y="10%" xlink:href="https://static.visiondirect.info/media/wysiwyg/cms/human-eye/sunflower.png" id="sunflower" alt="A sunflower" width="80%" height="80%"/></image>
+                </svg>
+
+
+
+
+                <div class="plusBtn pupil" data-target="mask-pupil"><span class="plus"></span><span class="minus"></span><span>Pupil</span></div>
+                <div class="plusBtn iris" data-target="iris"><span class="plus"></span><span class="minus"></span><span>Iris</span></div>
+                <div class="plusBtn cornea" data-target="cornea"><span class="plus"></span><span class="minus"></span><span>Cornea</span></div>
+                <div class="plusBtn sclera" data-target="sclera"><span class="plus"></span><span class="minus"></span><span>Sclera</span></div>
+                <div class="plusBtn conjunctiva" data-target="conjunctiva"><span class="plus"></span><span class="minus"></span><span>Conjunctiva</span></div>
+                <div class="plusBtn lens" data-target="lens"><span class="plus"></span><span class="minus"></span><span>Crystalline Lens</span></div>
+                <div class="plusBtn aqueous" data-target="aqueous"><span class="plus"></span><span class="minus"></span><span>Aqueous Humour</span></div>
+
+                <div class="plusBtn retina" data-target="retina"><span>Retina</span><span class="plus"></span><span class="minus"></span></div>
+                <div class="plusBtn macula" data-target="mask-macula"><span>Macula</span><span class="plus"></span><span class="minus"></span></div>
+                <div class="plusBtn fovea" data-target="mask-fovea"><span>Fovea</span><span class="plus"></span><span class="minus"></span></div>
+                <div class="plusBtn opticdisc" data-target="mask-opticdisc"><span>Optic Disc (blind spot)</span><span class="plus"></span><span class="minus"></span></div>
+                <div class="plusBtn opticnerve" data-target="mask-opticnerve"><span>Optic nerve</span><span class="plus"></span><span class="minus"></span></div>
+                <div class="plusBtn vitreous" data-target="vitreous"><span>Vitreous Humour</span><span class="plus"></span><span class="minus"></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script>
+// adds active class to nav link
+$(function(){
+    var current = location.pathname;
+    var alllinks = current + ": ";
+    $('nav li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').endsWith(current)){
+            $this.addClass('active');
+        }
+    })
+})
+</script>
+<script>
+    function getSlide() {
+        var actualSlide = 0;
+
+        // get classes from body
+        var classList = $('body').attr('class').split(' ');
+
+        if ($('body').attr('class') >= 0) { } else {
+            for (var i = 0; i < classList.length; i++) {
+                if (classList[i].indexOf("slide") >= 0) {
+                    actualSlide = classList[i].split("slide")[1]
+                }
+            }
+        }
+        return parseInt(actualSlide);
+    }
+
+    function getSlideTitle(slide) {
+        return $("#slide" + slide + " :header").first().html();
+    }
+
+    function setSlide(newSlide) {
+        var oldSlide = getSlide();
+        if (newSlide>3) newSlide = 3;
+        if (newSlide<0) newSlide = 0;
+
+        $('body').removeClass("slide" + oldSlide);
+        $('body').addClass("slide" + newSlide);
+
+        $('#slideText #slide' + oldSlide).removeClass("activeText");
+        $('#slideText #slide' + newSlide).addClass("activeText");
+
+        $("#brightnessSlider input").val(100).trigger('change');
+        $("#focusSlider input").val(100).trigger('change');
+
+        $('.plusBtnActive').removeClass('plusBtnActive');
+        inspectionSwitch($('.plusBtn.cornea'),false);
+
+        //newSlide is now the actual slide...
+        if (newSlide<3) {
+            $("#nextSlide").attr('title',getSlideTitle(newSlide+1));
+            $("#nextSlide span").html(getSlideTitle(newSlide+1));
+        }
+        if (newSlide>0) {
+            $("#prevSlide").attr('title',getSlideTitle(newSlide-1));
+            $("#prevSlide span").html(getSlideTitle(newSlide-1));
+        }
+    }
+
+    function nextSlide() {
+        setSlide(getSlide()+1);
+    }
+
+    function prevSlide() {
+        setSlide(getSlide()-1);
+    }
+
+    function inspectionSwitch(button,status) {
+        if ( !$( ".plusBtnActive" ).length ) {
+            var activeText = "." + button.attr('class').split(' ')[1];
+            var activePart = "#" + button.data("target");
+
+            if (status === true) {
+                // checks if has to show a white mask or hide the other eye parts
+$(".pulsing").removeClass("pulsing");
+                if (activePart.indexOf("mask") >= 0) {
+                    $("#eyeContainer").removeClass("inspecting");
+                    $("#eyeContainer").addClass("inspectingMasks");
+                } else {
+                    $("#eyeContainer").removeClass("inspectingMasks");
+                    $("#eyeContainer").addClass("inspecting");
+                }
+                $("#eyePartText .activeText").removeClass("activeText");
+                $(activeText).addClass("activeText");
+                $(activePart).addClass("activePart");
+
+            } else {
+                // it removes all the inspecting classes
+
+                $("#eyeContainer").removeClass(["inspecting","inspectingMasks"]);
+                $("#eyePartText .activeText").removeClass("activeText");
+                $(".activePart").removeClass("activePart");
+
+                $(".anatomy").addClass("activeText");
+
+            }
+
+        }
+
+    };
+
+    // Makes eye's areas transparent
+    $('.plusBtn').hover(
+        function() {
+            // on cursor hover, sends the button and enables the inspecting mode
+            inspectionSwitch($(this),true);
+        }, function() {
+            // when the cursor leaves the button it removes the inspection mode
+            inspectionSwitch($(this),false);
+        }
+    );
+
+    // Click on Plus button
+    $('.plusBtn').click(
+        function() {
+            if ($(this).hasClass('plusBtnActive')) {
+                $(this).removeClass('plusBtnActive');
+                inspectionSwitch($(this),false);
+            } else {
+                $('.plusBtnActive').removeClass('plusBtnActive');
+                inspectionSwitch($(this),false);
+                inspectionSwitch($(this),true);
+                $(this).addClass('plusBtnActive');
+            }
+        }
+    );
+
+    // Click on Plus button
+    $('#eye').click(
+        function() {
+            $('.plusBtnActive').removeClass('plusBtnActive');
+            inspectionSwitch($('.plusBtn.cornea'),false);
+        }
+    );
+
+    $('#restart').on('click', function(event) { setSlide(0); });
+    $('#prevSlide').on('click', function(event) { prevSlide(); });
+    $('#nextSlide').on('click', function(event) { nextSlide(); });
+
+    //Brightness slider
+    $("#brightnessSlider input").on("input change", function() {
+        var heightFactor = this.value/100;
+        var heightFactorIris = (2-heightFactor-(0.1*(2-heightFactor)));
+
+        $('#iris-top').css({'transform' : 'scale(1, ' + heightFactorIris + ')'});
+        $('#lightRay').css({'transform' : 'scale(1, ' + (heightFactor*1.25) + ')'});
+        $('#iris-bottom').css({'transform' : 'scale(1, ' + heightFactorIris + ')'});
+    });
+
+    //Focus slider
+    $("#focusSlider input").on("input change", function() {
+        var heightFactor = this.value/100;
+        var widthFactor = 2-this.value/100;
+        var blurriness = this.value-100;
+
+        $('#lens').css({'transform' : 'scale(' + heightFactor + ', ' + widthFactor + ')'});
+        $('#zonula').css({'transform' : 'scale(' + heightFactor + ', ' + 1 + ')'});
+
+        // removes classes starting with blur
+        $('#mountains').removeClass(function (index, className) { return (className.match (/\bblur\S+/g) || []).join(' '); });
+        $('#sunflower').removeClass(function (index, className) { return (className.match (/\bblur\S+/g) || []).join(' '); });
+
+        if (blurriness!==0) {
+            if (blurriness>0) {
+                $('#mountains').addClass('blur'+blurriness);
+            } else {
+                $('#sunflower').addClass('blur'+(blurriness*-1));
+            }
+        }
+    });
+
+    // makes all texts the same height, so when you select the eye part, the window doesn't jump
+    function normalizeSlideHeights() {
+        addMinHeight('#slideText',0); // prev +24
+        addMinHeight('#sliders',0);
+        addMinHeight('#eyePartText',24); // prev +20
+    }
+
+    function addMinHeight(parentContainer,extraHeight){
+        var maxHeight = 0;
+        var oH = 0; //outerHeight
+
+        $(parentContainer+" > div").each(function(){
+            $(this).css('min-height','');
+            $(this).css('display','block');
+
+            oH = $(this).outerHeight(true);
+
+            if ( maxHeight < oH ) {
+                maxHeight = oH;
+            }
+            $(this).css('display','');
+        });
+
+        console.log(parentContainer + ": " + maxHeight );
+        $(parentContainer).css('min-height',(maxHeight+extraHeight)+"px");
+    }
+
+    var delayResize = (function(){
+        var timer = 0;
+        return function(callback, ms){
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
+
+    $(window).resize(function() {
+        delayResize(function(){
+            normalizeSlideHeights();
+        }, 500);
+    });
+
+    $(document).ready(function() {
+        // initialize slide var
+        $('body').addClass("pulsing");
+
+        // initialize slide 1
+        setSlide(0);
+
+        //Load eye
+        $('#eye').load("https://static.visiondirect.info/media/wysiwyg/cms/human-eye/eye2.svg", function() {
+            //$(this).css("background","none");
+        });
+
+        normalizeSlideHeights();
+    })
+
+</script></div>    </div>
+
+    
+
+    <script async src="https://cdn-pci.optimizely.com/js/13594070175.js"></script>
+
+<!-- /var/www2/magento/app/design/frontend/base/default/layout/layoutblocks.xml -->
+<script type="text/javascript" src="https://static.visiondirect.info/media/js/e6718167a3d79cf3a3f79cba497ea21e.js"></script>
+
+</body>
+</html><script type="text/javascript">
+
+    VD.namespace('VD.purecloud.config', {"orgId":"8852","orgName":"visiondirect","webchatAppUrl":"https:\/\/apps.mypurecloud.ie\/webchat","webchatServiceUrl":"https:\/\/realtime.mypurecloud.ie:443","queueName":"Netherlands","skills":["CHA - Chat"],"language":"Dutch - Written","active":null,"welcomeMessage":"Welcome to Vision Direct chat"} );
+</script>
