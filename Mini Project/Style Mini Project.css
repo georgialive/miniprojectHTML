@@ -9,6 +9,43 @@
 
 nav {
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
 }
 
 
+
+a {
+    color: black;
+    font-size: 24px;
+    FONT-WEIGHT: 700;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
