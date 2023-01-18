@@ -203,7 +203,11 @@ footer {
   margin-bottom: 32px;
 }
 
-@media (max-width: 768px) {
+/*
+    SMALL PHONES, TABLETS, LARGE SMARTPHONES
+*/
+
+@media (max-width: 728px) {
   .row {
     flex-direction: column;
   }
@@ -259,9 +263,13 @@ footer {
   }
 
   .footer__link {
-    padding: 0 8px;
+    padding: 0 4px;
     font-size: 18px;
   }
+.footer__links {
+    margin-bottom: 24px;
+}
+
 }
 
 @media (max-width: 480px) {
