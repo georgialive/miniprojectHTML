@@ -82,7 +82,7 @@ ABOUT SECTION
 
 */
 
-#about {
+#about, #discord, #contact {
 
     padding: 48px 0px;
     background-color: #f8ffdc;
@@ -129,4 +129,47 @@ img {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/* 
+
+
+PROJECTS SECTION
+
+
+*/
+
+#discord {
+    background-color: #cefeff;
+
+}
+
+
+/* 
+
+
+CONTACT ME SECTION
+
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    font-display: column;
+    margin: 0 auto;
+
+
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+
 }
