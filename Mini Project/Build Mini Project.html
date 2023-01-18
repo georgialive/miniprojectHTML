@@ -1,114 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style Mini Project.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <section>
-        <nav>
-            <img src="./assets/FES.svg" class="logo" alt="">
-            <ul>
-                <li><a herf="#aboutme">About Me</a></a></li>
-                <li><a herf="#projects">Projects</a></a></li>
-                <li><a herf="#contactme">Contact Me</a></a></li>
-            </ul>
-        </nav>
-        <header>
-            <div class="row">
-            <div>
-                <h1>Hi, I'm Georgia</h1>
-                <p class="subheader">I'm a 15-year-old programer experienced in Java and loves to swim.</p>
-                <button>See my Projects</button>
-            </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="Home Page Image">
-            </figure>
+  <section>
+    <nav>
+      <img class="logo" src="./assets/FES.svg" alt="" />
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#discord">Discord</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="row">
+        <div class="home__description">
+          <h1>Best place to learn Frontend</h1>
+          <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+          <button>Start now</button>
         </div>
-        </header>
-    </section>
-
-<main>
-    <section id="aboutme">
-
-        <h2>About Me</h2>
-        <div class="row">
-        <div class="section__description">
-        <div class="section__description-wrapper">
-            <p class="section__description-para">
-                My name is Georgia Vrana and I was born in Ontario, Canada. I am currently 15-years-old
-                and I have a large passion for coding. I have a lot of experience using Java, however I am looking towards
-                broadening my horizons and trying some FrontEnd coding as well. I am a former national level swimmer for my age group,
-                and I enjoy teaching kids how to swim. 
-            </p>
-            <p>
-                In my spare time play piano for the Royal Conservatory of Music (RCM), I am also currently practicing 
-                music for Christmas time (my personal favourite on the piano is White Christmas). I enjoy watching anime 
-                in my free-time and my favourite coding language so far is Java.
-            </p>
-        </div>
-        <figure class="about__img-wrapper">
-            <img src="./assets/about.jpg" alt="">
+        <figure class="home__img--wrapper">
+          <img class="home__img" src="./assets/laptop.png" alt="" />
         </figure>
-        </div>
-    </div>
-    </section>
+      </div>
+    </header>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="ro">
-        <div class="section__description">
-        <figure>
-            <img src=".assets/discord.png" alt="Discord Image">
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
+        </div>
+        <figure class="about__img--wrapper">
+          <img src="./assets/about.jpg" alt="" />
         </figure>
-
-            <div class="section__description-wrapper">
-            <p class="section__description-para">
-                These are some the projects I have been doing (well the most impressive ones). Most of them are using Java and work
-                with doing math and adding numbers and doing functions. However, I got a really firm grasp on the different methods at 
-                one point in my projects, and it really shows with how much more organized my projects are.
-            </p>
-            <p>
-                The projects in here will also include some of my school collabrative work projects (using Eclipse and Java), however there are also some
-                personal passion projects in here that I did independently on my own time. 
-            </p>
-        </div>
-        </div>
-    </div>
+      </div>
     </section>
 
+    <section id="discord">
+      <h2>Discord</h2>
+      <div class="section__description">
+        <figure class="about__img--wrapper">
+          <img src="./assets/discord.png" alt="" />
+        </figure>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+            saepe fugiat natus hic.</p>
+        </div>
 
-
-    <section id="contactme">
-        <h2>Contact Me</h2>
-        <div class="row">
-        <form action="">
-            <label>Email</label>
-            <input type="text" placeholder="example@gmail.com">
-            <label>Message</label>
-            <textarea type="Email" placeholder="Start Typing Here..."></textarea>
-            <button>Contact Me!</button>
-        </form>
+      </div>
     </section>
-    </div>
-</main>
 
-<footer>
-    <img class="footer__logo"src="./assets/FES.svg" alt="">
-    <div class="row">
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="">
+        <span>Email</span>
+        <input type="email" placeholder="jane@example.com" />
+        <span>Message</span>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Nice website, lets connect!"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img class="footer__logo" src="./assets/FES.svg" alt="" />
     <div class="footer__links">
-
-        <a class="footer__links" href="#aboutme">About</a>
-        <a class="footer__links" href="#projects">Projects</a>
-        <a class="footer__links" href="#contactme">Contact Me</a>
-
+      <a class="footer__link" href="#about">About</a>
+      <a class="footer__link" href="#discord">Discord</a>
+      <a class="footer__link" href="#contact">Contact</a>
+      <a class="footer__link" href="">Courses</a>
     </div>
-    <p>Copywrite Georgia Vrana</p>
-</div>
-</footer>
+    <p>Copyright Frontend Simplified</p>
+  </footer>
 </body>
 
 </html>
